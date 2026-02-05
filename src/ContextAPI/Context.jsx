@@ -1,10 +1,15 @@
-import React, { createContext } from 'react'
+import React, { createContext, useState } from 'react'
 export const AuthContext = createContext();
 const Context = ({children}) => {
-    let a = "Hello from Context API";
-    let b = 100;
+    const [theme,setTheme] = useState("light");
+    const toggleTheme = () => {
+        setTheme(theme === "light" ? "dark" : "light");
+    }
   return (
-    <AuthContext value={{a,b}}>
+    <AuthContext value={{theme,toggleTheme}}>
+        <div className={theme}>
+           <button onClick={toggleTheme} className='p-1 bg-amber-200 rounded'>{theme==="light" ? "Dark" : "Light"}</button> 
+        </div>
       {children}
     </AuthContext>
   )
