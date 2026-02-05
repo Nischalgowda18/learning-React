@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "id": "4c5c",
+      "username": "Virat Kohli",
+      "password": "@Virat123",
+      "confirmPassword": "@Virat123"
+    },
+    {
+      "id": "6719",
+      "username": "Nischal Gowda M N",
+      "password": "@Nischal1234",
+      "confirmPassword": "@Nischal1234"
+    },
+    {
+      "id": "4a3d",
+      "username": "Nischal Gowda M N",
+      "password": "@Nischal1234",
+      "confirmPassword": "@Nischal1234"
+    }
+  ]
+}

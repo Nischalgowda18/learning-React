@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "id": "d457",
+      "name": "Nischal",
+      "email": "nichumn4321@gmail.com",
+      "password": "@Virat123"
+    },
+    {
+      "id": "cb6d",
+      "name": "Gowda",
+      "email": "Gowda@gmail.com",
+      "password": "@Nischal4321"
+    },
+    {
+      "id": "4af5",
+      "username": "mnnischalgowda1234@gmail.com",
+      "password": "@Nischal4321",
+      "confirmPassword": "@Virat123"
+    },
+    {
+      "id": "0e28",
+      "name": "",
+      "email": "",
+      "password": ""
+    },
+    {
+      "id": "fb1a",
+      "name": "",
+      "email": "",
+      "password": ""
+    }
+  ]
+}
